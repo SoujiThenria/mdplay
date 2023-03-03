@@ -1,0 +1,29 @@
+mdplay
+======
+mdplay is a simple music player for the command line. It just plays all files
+inside a specified directory.
+
+
+Requirements
+------------
+FFmpg development libraries.
+
+
+Installation
+------------
+Edit config.mk to match your local setup (mdplay is installed into
+the /usr/local namespace by default).
+
+Additional configurations regarding the software can be done in the
+config.h file.
+
+Afterwards, enter the following command to build and install mdplay (if
+necessary as root):
+
+    make clean install
+
+
+Running mdplay
+--------------
+mdplay [-v] [dir]
+
